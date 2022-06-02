@@ -7,9 +7,7 @@ import {createOrUse} from './createOrUse';
 
 const title = 'Cache';
 const Cache = () => {
-  const people = createOrUse('people', () =>
-    D.makeArray(2).map(D.createRandomPerson),
-  );
+  const people = useMemo(() => D.makeArray(2).map(D.createRandomPerson), []);
 
   return (
     <View style={[styles.view]}>
