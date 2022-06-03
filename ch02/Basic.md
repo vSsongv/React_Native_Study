@@ -37,7 +37,7 @@ return
 onChangeText(text:string) => void
 ```
 
-- editable 속성값을 false로 하면 입력을 막을 수있따.
+- editable 속성값을 false로 하면 입력을 막을 수 있다.
 - focus : 포커스를 가지게 함, onFocus 이벤트를 호출한다.
 - blur : 포커스를 잃게 함, onBlur 이벤트를 호출한다.
 - 텍스트 입력이 모두 끝나면 onEndEditing 이벤트를 호출한다.
